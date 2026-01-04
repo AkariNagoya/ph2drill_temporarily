@@ -6,7 +6,7 @@
 
 `select students.name 学生名, ? 学習日, sum(studies.hours) 日毎の学習時間 from students join studies on studies.student_id = students.id group by 学習日, name;`
 上記sqlの?部分に適切な処理を入れてください
-
+<!-- 答え studies.date -->
 ### 終了条件
 containerを立ち上げ、containerのmysqlに接続してください
 mysqlでSQLを実行した結果、以下のように表示されれば完了。

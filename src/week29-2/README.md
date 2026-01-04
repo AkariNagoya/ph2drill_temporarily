@@ -5,6 +5,8 @@
 2022年6月20日~2022年6月25日の小谷さんの学習時間の総和を算出してください
 
 `select sum(hours) 学習時間 from studies where ? and ?;`
+<!-- where student_id = 3 and date between '2022-06-20' and '2022-06-25' -->
+上記sqlの?部分に適切な処理を入れてください
 上記sqlの?部分に適切な処理を入れてください
 
 ### 終了条件

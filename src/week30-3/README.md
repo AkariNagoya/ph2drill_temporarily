@@ -6,7 +6,7 @@
 
 `select students.name 学生名, ? 学習月, sum(studies.hours) 月ごとの学習時間 from students join studies on studies.student_id = students.id group by 学習月, name;`
 上記sqlの?部分に適切な処理を入れてください
-
+<!-- 答え date_format(studies.date, '%Y-%m') -->
 ### 終了条件
 30-2で立ち上げたcontainerのmysqlに接続してください
 mysqlでSQLを実行した結果、以下のように表示されれば完了。
